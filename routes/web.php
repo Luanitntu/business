@@ -14,4 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+/* Route Admin */
 Route::get('signin','signinController@signinAdmin');
+Route::post('register','signinController@registerAdmin');
